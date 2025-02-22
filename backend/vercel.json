@@ -1,13 +1,9 @@
 {
     "version": 2,
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "src/index.ts"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "dist/index.js"
+    "rewrites": [
+        { 
+            "source": "/(.*)", 
+            "destination": "/src"
         }
-    ]
+    ] 
 }
