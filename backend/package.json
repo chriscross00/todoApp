@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsc", 
     "start": "tsc && node dist/index.js",
+    "debug": "tsc && node inspect dist/index.js",
     "dev": "node --experimental-strip-types --watch ./src/index.ts --trace-warnings",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
